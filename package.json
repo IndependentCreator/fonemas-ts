@@ -41,11 +41,11 @@
   "license": "LGPL-2.1-or-later",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IndependentCreator/silabeador-ts.git"
+    "url": "git+https://github.com/IndependentCreator/fonemas-ts.git"
   },
-  "homepage": "https://github.com/IndependentCreator/silabeador-ts#readme",
+  "homepage": "https://github.com/IndependentCreator/fonemas-ts#readme",
   "bugs": {
-    "url": "https://github.com/IndependentCreator/silabeador-ts/issues"
+    "url": "https://github.com/IndependentCreator/fonemas-ts/issues"
   },
   "dependencies": {
     "silabeador": "^1.0.0"
