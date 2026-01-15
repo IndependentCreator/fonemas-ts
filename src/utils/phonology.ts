@@ -1,4 +1,4 @@
-import { Syllabification } from 'silabeador';
+import { Syllabification } from 'silabeador-ts';
 import type { Values, ExceptionLevel } from '../types.js';
 import { CONSONANTS } from '../data/consonants.js';
 import { PHONOLOGY_DIACRITICS } from '../data/diacritics.js';
