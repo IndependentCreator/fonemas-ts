@@ -1,0 +1,63 @@
+{
+  "name": "fonemas",
+  "version": "1.0.0",
+  "description": "Spanish phonological and phonetic transcription library, ported from https://github.com/fsanzl/fonemas",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "fonemas": "./bin/fonemas.js"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "bin",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest --coverage",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "spanish",
+    "phonetic",
+    "phonology",
+    "transcription",
+    "ipa",
+    "sampa",
+    "nlp",
+    "linguistics"
+  ],
+  "author": "independentcreator@protonmail.com",
+  "license": "LGPL-2.1-or-later",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IndependentCreator/silabeador-ts.git"
+  },
+  "homepage": "https://github.com/IndependentCreator/silabeador-ts#readme",
+  "bugs": {
+    "url": "https://github.com/IndependentCreator/silabeador-ts/issues"
+  },
+  "dependencies": {
+    "silabeador": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@vitest/ui": "^1.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3",
+    "vitest": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

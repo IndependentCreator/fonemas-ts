@@ -1,0 +1,10 @@
+src/
+tests/
+tsconfig.json
+.gitignore
+*.test.ts
+vitest.config.ts
+.github/
+coverage/
+.vitest/
+pnpm-lock.yaml
